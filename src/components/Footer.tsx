@@ -28,8 +28,8 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><Link to="/signup?role=brand" className="text-background/80 hover:text-primary transition-smooth">Post Campaigns</Link></li>
               <li><Link to="/brand-dashboard" className="text-background/80 hover:text-primary transition-smooth">Brand Dashboard</Link></li>
-              <li><Link to="#" className="text-background/80 hover:text-primary transition-smooth">Pricing</Link></li>
-              <li><Link to="#" className="text-background/80 hover:text-primary transition-smooth">Success Stories</Link></li>
+              <li><Link to="/pricing" className="text-background/80 hover:text-primary transition-smooth">Pricing</Link></li>
+              <li><Link to="/support" className="text-background/80 hover:text-primary transition-smooth">Success Stories</Link></li>
             </ul>
           </div>
 
@@ -39,8 +39,8 @@ export const Footer = () => {
             <ul className="space-y-2 text-sm">
               <li><Link to="/signup?role=creator" className="text-background/80 hover:text-success transition-smooth">Find Campaigns</Link></li>
               <li><Link to="/creator-dashboard" className="text-background/80 hover:text-success transition-smooth">Creator Dashboard</Link></li>
-              <li><Link to="#" className="text-background/80 hover:text-success transition-smooth">Creator Resources</Link></li>
-              <li><Link to="#" className="text-background/80 hover:text-success transition-smooth">Payment Terms</Link></li>
+              <li><Link to="/support" className="text-background/80 hover:text-success transition-smooth">Creator Resources</Link></li>
+              <li><Link to="/terms" className="text-background/80 hover:text-success transition-smooth">Payment Terms</Link></li>
             </ul>
           </div>
 
@@ -70,9 +70,9 @@ export const Footer = () => {
               © 2024 FamFree. All rights reserved.
             </p>
             <div className="flex space-x-6 text-sm">
-              <Link to="#" className="text-background/60 hover:text-background transition-smooth">Privacy Policy</Link>
-              <Link to="#" className="text-background/60 hover:text-background transition-smooth">Terms of Service</Link>
-              <Link to="#" className="text-background/60 hover:text-background transition-smooth">Support</Link>
+              <Link to="/privacy" className="text-background/60 hover:text-background transition-smooth">Privacy Policy</Link>
+              <Link to="/terms" className="text-background/60 hover:text-background transition-smooth">Terms of Service</Link>
+              <Link to="/support" className="text-background/60 hover:text-background transition-smooth">Support</Link>
             </div>
           </div>
         </div>
